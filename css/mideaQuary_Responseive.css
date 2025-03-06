@@ -201,11 +201,6 @@
     flex: 0 0 auto;
     width: 49.333% !important;
   }
-  /* .mobile_s {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
 }
 @media (min-width: 576px) and (max-width: 768px) {
   .ofcanves_bg {
@@ -661,6 +656,49 @@
   }
   .banner_img img {
     margin-left: 241px !important;
+  }
+  .ofcanves_bg {
+    background: #00856f;
+  }
+  .nav-item .nav-link {
+    color: white !important;
+    color: var(--Primary-Colors-brand-beige, #fffaf1);
+    text-align: center;
+    font-family: 'DM Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+  }
+  .socal_icon {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .nav_btn a {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: var(--Primary-Colors-brand-green, #00856f);
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: white;
+  }
+  .nav_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
   }
 }
 @media (min-width: 992.99px) and (max-width: 1100px) {
