@@ -406,3 +406,53 @@ flex-shrink: 0;
 html {
   scroll-behavior: smooth;
 }
+
+.counter {
+  border-radius: 6px;
+  border: 1px solid var(--Primary-Colors-brand-green-light, #dce9e2);
+  background: var(--Primary-Colors-brand-beige, #fffaf1);
+  width: 91%;
+}
+
+.mian_doctor_text h2 {
+  color: var(--Secondary-Colors-gray-headline, #212529);
+  font-family: 'DM Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 150px;
+}
+
+.contact_left h2 {
+  color: var(--Secondary-Colors-gray-headline, #212529);
+  font-family: 'DM Sans';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 129px;
+  margin-bottom: 40px;
+}
+.counter {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: -12px;
+  padding-right: 118px;
+}
+.counter_two::after {
+  content: '';
+  width: 2px;
+  height: 100px;
+  opacity: 0.5;
+  background: #00856f;
+  position: absolute;
+  top: 0;
+  right: -31px;
+}
+.counter {
+  border-radius: 6px;
+  border: 1px solid var(--Primary-Colors-brand-green-light, #dce9e2);
+  background: var(--Primary-Colors-brand-beige, #fffaf1);
+  width: 69%;
+}
