@@ -456,3 +456,31 @@ html {
   background: var(--Primary-Colors-brand-beige, #fffaf1);
   width: 69%;
 }
+.col-lg-7 {
+  flex: 0 0 auto;
+  width: 40.333%;
+}
+.col-lg-8 {
+  flex: 0 0 auto;
+  width: 56.667%;
+}
+.banner_btn a {
+  padding: 16px 32px;
+  border-radius: 40px;
+  background: var(--Primary-Colors-brand-green, #00856f);
+  color: var(--Secondary-Colors-White, #fff);
+  font-family: 'DM Sans';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 48px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  border: 1px solid #00856f;
+  width: 244px;
+}
