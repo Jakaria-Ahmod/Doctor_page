@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="./css/all.min.css">
   <!-- coustom css file link in web page -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- responsive css link -->
+  <link rel="stylesheet" href="./css/mideaQuary_Responseive.css">
 </head>
 
 <body>
@@ -26,10 +28,51 @@
       <a class="navbar-brand" href="#">
         <img src="./img/Logo.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
         aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
+
+
+      <a class="d-lg-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        <img src="./img/menu.png" alt="">
+      </a>
+      <div class="offcanvas offcanvas-start ofcanves_bg" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header ">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <img src="./img/smlogo.png" alt="">
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav mx-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" href=" #">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" #">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" #">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" #">Depoimentos</a>
+            </li>
+          </ul>
+          <div class="nav_btn">
+            <a href="#">Agendar consulta</a>
+          </div>
+          <div class="socal_icon1">
+            <i class="fa-brands socal_icon_main fa-instagram"></i>
+            <i class="fa-brands socal_icon_main fa-facebook"></i>
+            <i class="fa-brands socal_icon_main fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
@@ -66,7 +109,7 @@
               uma
               cura a longo
               prazo.</span>
-            <div class="row">
+            <div class="row d-sm-flex">
               <div class="banner_btn col-lg-4">
                 <a class="d-flex align-items-center">
                   <i class="fa-brands fa-whatsapp icon_whatsapp"></i>
@@ -217,7 +260,7 @@
             </div>
             <div class="row">
               <div class="banner_btn col-lg-6">
-                <a class="d-flex align-items-center">
+                <a class="d-flex align-items-center cta_btn">
                   <i class="fa-brands fa-whatsapp icon_whatsapp"></i>
                   <b>Agende sua consulta</b>
                 </a>
